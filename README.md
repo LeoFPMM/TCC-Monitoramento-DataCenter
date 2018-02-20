@@ -1,1 +1,5 @@
 # TCC-Monitoramento-DataCenter
+
+Este trabalho apresenta o desenvolvimento de um sistema, aplicado à Internet das Coisas (IoT – Internet Of Things), capaz de realizar o monitoramento de Data Centers, cuja preocupação é relacionada principalmente com a temperatura ambiente deste local que armazena servidores, storages, switchs, entre outros equipamentos de rede. Além da temperatura, o sistema visa monitorar a umidade relativa do ar, a energia elétrica fornecida para os equipamentos, presença de chama e luminosidade da sala.
+
+As variáveis em questão são supervisionadas a partir de uma interface web e de um aplicativo mobile. Notificações de presença de chama/fumaça, assim como quedas de energia e aumento drástico na temperatura ambiente são enviadas através do aplicativo de conversação Telegram. O microcontrolador ESP8266, embarcado à plataforma de hardware NodeMCU é responsável pelo controle das variáveis do sistema, com o acréscimo de envio e recebimento dos valores lidos por sensores que, por fim, são armazenados em um banco de dados e transmitidos para um navegador web.
